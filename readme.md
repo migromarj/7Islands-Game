@@ -1,31 +1,31 @@
-# URL Explain Video
-https://youtu.be/CBMly4up8pU
-
-# Contact Email
-DP1L81.etsii@gmail.com
-
 # Spring SevenIslands Sample Application 
 
 This is a fork of https://github.com/spring-projects/spring-SevenIslands to be used for the DP1 course. The main changes that have been performed were:
 - Trimming several parts of the application to keep the example low
 - Reorganize some parts of the code according to best practices introduced in the course
 
-## Understanding the Spring SevenIslands application with a few diagrams
-<a href="https://speakerdeck.com/michaelisvy/spring-SevenIslands-sample-application">See the presentation here</a>
+<!-- ## Understanding the Spring SevenIslands application with a few diagrams
+<a href="https://speakerdeck.com/michaelisvy/spring-SevenIslands-sample-application">See the presentation here</a> -->
+
+## URL Explain Video
+https://youtu.be/CBMly4up8pU
+
+## Contact Email
+dp1l81.etsii@gmail.com
 
 ## Game preview
 
-<img width="1042" alt="SevenIslands-screenshot" src="https://github.com/gii-is-DP1/dp1-2021-2022-l8-1/blob/26bf4fb0e8ee734efae28ffb5b40462a38b0e97e/materials/Game%20screenshots/game.JPG">
-<img width="1042" alt="SevenIslands-screenshot" src="https://github.com/gii-is-DP1/dp1-2021-2022-l8-1/blob/26bf4fb0e8ee734efae28ffb5b40462a38b0e97e/materials/Game%20screenshots/gameCards.JPG">
-<img width="1042" alt="SevenIslands-screenshot" src="https://github.com/gii-is-DP1/dp1-2021-2022-l8-1/blob/26bf4fb0e8ee734efae28ffb5b40462a38b0e97e/materials/Game%20screenshots/lobby.JPG">
+<img width="1042" alt="SevenIslands game" src="https://github.com/migromarj/7Islands-Game/blob/master/materials/Game%20screenshots/game.JPG?raw=true">
+<img width="1042" alt="SevenIslands game cards" src="https://github.com/migromarj/7Islands-Game/blob/master/materials/Game%20screenshots/gameCards.JPG">
+<img width="1042" alt="SevenIslands lobby" src="https://github.com/migromarj/7Islands-Game/blob/master/materials/Game%20screenshots/lobby.JPG">
 
 ## Running SevenIslands locally
 SevenIslands is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
 
 
 ```
-git clone https://github.com/gii-is-DP1/spring-SevenIslands.git
-cd spring-SevenIslands
+git clone https://github.com/migromarj/7Islands-Game.git
+cd 7Islands-Game
 ./mvnw package
 java -jar target/*.jar
 ```
@@ -64,7 +64,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-git clone https://github.com/gii-is-DP1/spring-SevenIslands.git
+git clone https://github.com/migromarj/7Islands-Game.git
 ```
 2) Inside Eclipse or STS
 ```
@@ -80,9 +80,9 @@ In the main menu, choose `File -> Open` and select the SevenIslands [pom.xml](
 CSS files are generated from the Maven build. You can either build them on the command line `./mvnw generate-resources`
 or right click on the `spring-SevenIslands` project then `Maven -> Generates sources and Update Folders`.
 
-A run configuration named `IslasApplicaction` should have been created for you if you're using a recent Ultimate
-version. Otherwise, run the application by right clicking on the `IslasApplicaction` main class and choosing
-`Run 'IslasApplicaction'`.
+A run configuration named `IslandsApplicaction` should have been created for you if you're using a recent Ultimate
+version. Otherwise, run the application by right clicking on the `IslandsApplicaction` main class and choosing
+`Run 'IslandsApplicaction'`.
 
 4) Navigate to SevenIslands
 
@@ -93,9 +93,9 @@ Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
 |Spring Boot Configuration | Class or Java property files  |
 |--------------------------|---|
-|The Main Class | [IslasApplicaction](https://github.com/gii-is-DP1/spring-SevenIslands/blob/master/src/main/java/org/springframework/samples/SevenIslands/IslasApplicaction.java) |
-|Properties Files | [application.properties](https://github.com/gii-is-DP1/spring-SevenIslands/blob/master/src/main/resources) |
-|Caching | [CacheConfiguration](https://github.com/gii-is-DP1/spring-SevenIslands/blob/master/src/main/java/org/springframework/samples/SevenIslands/system/CacheConfiguration.java) |
+|The Main Class | [IslasApplicaction](https://github.com/migromarj/7Islands-Game/blob/master/src/main/java/org/springframework/samples/SevenIslands/IslasApplicaction.java) |
+|Properties Files | [application.properties](https://github.com/migromarj/7Islands-Game/blob/master/src/main/resources) |
+|Caching | [CacheConfiguration](https://github.com/migromarj/7Islands-Game/blob/master/src/main/java/org/springframework/samples/SevenIslands/system/CacheConfiguration.java) |
 
 ## Interesting Spring SevenIslands branches and forks
 
@@ -107,7 +107,7 @@ that could be used to implement the Pet Clinic then please join the community th
 
 # Contributing
 
-The [issue tracker](https://github.com/gii-is-DP1/spring-SevenIslands/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
+The [issue tracker](https://github.com/migromarj/7Islands-Game/issues) is the preferred channel for bug reports, features requests and submitting pull requests.
 
 For pull requests, editor preferences are available in the [editor config](.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org>. If you have not previously done so, please fill out and submit the [Contributor License Agreement](https://cla.pivotal.io/sign/spring).
 
